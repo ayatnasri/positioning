@@ -1,0 +1,18 @@
+.site-header{
+    display: flex;
+    padding: 20px 100px;
+    align-items: center;
+    gap: 10px;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 20px;  
+}
+form{
+    border-radius: 20px;
+    border: 2px solid black;
+    padding: 10px;
+}
+form input{
+  border: none;
+    background-color: inherit;
+}
