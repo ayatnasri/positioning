@@ -1,8 +1,12 @@
 @import "components/site-header.css";
+@import "components/hero.css";
 
 * {
     margin: 0;
     padding: 0;
+}
+body{
+    height: 2000px;
 }
 body *{
     border: 1px solid black;

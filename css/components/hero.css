@@ -1,0 +1,33 @@
+/* .hero > div{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+} */
+
+.hero {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hero > div {
+    display: flex;
+    gap: 10px;
+}
+
+.hero h1{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.hero .product-card{
+    flex-grow: 1;
+    position: relative;
+}
+.hero .product-card img {
+    width: 100%;
+}
+.hero .product-card svg {
+    position: absolute;
+    margin: 0 auto;
+  bottom: 10px;
+  right: 10px;
+}
