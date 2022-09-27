@@ -1,5 +1,8 @@
 @import "components/site-header.css";
 @import "components/hero.css";
+@import "components/customer-sevice-chat.css";
+@import "components/promotion.css";
+@import "components/icon-menu.css";
 
 * {
     margin: 0;
@@ -8,6 +11,17 @@
 body{
     height: 2000px;
 }
-body *{
+/* body *{
     border: 1px solid black;
-}
+} */
+a {
+    color: black;
+    text-decoration: none;
+  }
+
+  main {
+    height: 100%;
+  }
+  ul{
+    list-style-type: none;
+  }
