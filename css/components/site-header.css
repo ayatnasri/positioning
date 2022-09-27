@@ -8,13 +8,14 @@
     margin-bottom: 20px;  
     position: sticky;
     top: 0;
+    z-index: 1;
 }
-form{
+.site-header form{
     border-radius: 20px;
     border: 2px solid black;
     padding: 10px;
 }
-form input{
+.site-header form input{
   border: none;
     background-color: inherit;
 }
